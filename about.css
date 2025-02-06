@@ -1,0 +1,86 @@
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* About Section Styles */
+#about h2,
+#about h3 {
+  text-align: center;
+  color:aqua;
+  
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#about h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color:aqua;
+
+}
+
+#about h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color:aqua;
+
+}
+
+#about p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.all-image {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all-image li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+
+.all-image li img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.all-image li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.all-image li a:hover {
+  text-decoration: underline;
+}
+.aboutus{
+  text-align: center;
+  color: antiquewhite;
+}

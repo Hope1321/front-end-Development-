@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styelsheet/contact.css" />
+
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="contact" class="contact-section">
+      <br />
+      <h2 id="contactus">Contact Us</h2>
+      <p>
+        If you have any questions, need support, or would like to provide
+        feedback, please feel free to get in touch with us using the contact
+        details below:
+      </p>
+      <ul class="information">
+        <p>
+          <i class="fas fa-envelope" id="d"></i>
+          Email:ourteam4@gmail.com
+        </p>
+
+        <p><i class="fas fa-phone" id="e"></i> Phone: +251-9222-3333</p>
+
+        <p>
+          <i class="fas fa-map-marker-alt" id="f"></i> Address:Harar, Haramaya
+          University, Ethiopia
+        </p>
+      </ul>
+      <h2 id="contactnow">Contact Form</h2>
+      <form id="contactForm">
+        <div class="input-group">
+          <label for="name"><i class="fas fa-user" id="g"></i> Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="email"
+            ><i class="fas fa-envelope" id="h"></i> Email:</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="someone@gmail.com"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="message"
+            ><i class="fas fa-comment" id="i"></i> Message:</label
+          >
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="write your comment here"
+          ></textarea>
+        </div>
+
+        <button type="submit" id="butn">Send Message</button>
+        <script src="javascript/javascript.js"></script>
+      </form>
+    </section>
+  </body>
+</html>
